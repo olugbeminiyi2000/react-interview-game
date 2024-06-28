@@ -118,6 +118,7 @@ function App() {
             capitalObj={capitalObj}
             score={score}
             setScore={setScore}
+            setCapitalObj={setCapitalObj}
           />
           <header className="score-board">
             {score}
