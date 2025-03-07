@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+![JavaScript](https://img.shields.io/badge/JavaScript-70%25-brightgreen.svg)
+![HTML](https://img.shields.io/badge/HTML-15%25-yellow.svg)
+![CSS](https://img.shields.io/badge/CSS-15%25-blue.svg)
+![React](https://img.shields.io/badge/React-18.3.1-brightgreen.svg)
+![tm-timer](https://img.shields.io/badge/tm--timer-1.0.2-lightgrey.svg)
+![Contributors](https://img.shields.io/badge/contributors-2-orange.svg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Country Capital Match Game
 
-In the project directory, you can run:
+A simple React-based game designed to help students learn about countries and their capitals in a fun and interactive way. Players match countries to their capitals, earn scores for successful matches, and enjoy soundtracks that enhance the experience—indicating correct matches, mismatches, and when the timer expires.
 
-### `npm start`
+This project aligns with [UN Sustainable Development Goal #4: Quality Education](https://sdgs.un.org/goals/goal4) by promoting accessible and engaging learning tools for students to expand their global knowledge.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+- Match countries with their capitals to test your geography skills.
+- Earn points for each correct match.
+- Audio feedback:
+  - Cheerful sound for a successful match.
+  - Alert sound for a mismatch.
+  - Timer expiration sound when time runs out.
+- Simple timer to add excitement and challenge.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
+1. Clone the repository:
+```bash
+git clone https://github.com/olugbeminiyi2000/react-interview-game/
+```
+2. Install dependencies:
+```bash
+npm install
+```
+3. Start the game:
+```
+npm start
+```
+4. Open your browser at `http://localhost:3000` and start learning!
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## How to Play
+- Match a country to its capital before the timer runs out.
+- Listen to the sound cues:
+  - **Success**: A happy tune plays.
+  - **Mismatch**: A warning sound alerts you.
+  - **Time’s up**: A distinct sound marks the end.
+- Track your score and aim to beat it!
